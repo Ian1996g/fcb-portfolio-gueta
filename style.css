@@ -1,0 +1,72 @@
+/*syntax css
+
+Selector {property: value; property: value}
+
+*/
+
+/* asterisk symbol specifies the universal selector for ALL the html elements*/
+* {
+font-family: "Roboto", sans-serif;
+
+}
+
+h1, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 250px; 
+	width: 250px;
+
+
+}
+
+#landing {
+ 	/*vh (viewport height measured % of the ht of the device you're using)*/
+	height: 80vh;
+
+	/*flexbox - display:  flex (arranges elements in a row by default)*/
+	display: flex;
+
+	/*changes the direction of the display: flex*/
+	flex-direction: column;
+
+	/*align items:  center but it arranges elements horizontally (in a column); vertically (in a row)*/
+	align-items: center;
+
+	/*justify-content: center; arranges all items in the flex parent horizontally (in a row); vertically (in a column) */
+	justify-content: center;
+}
+
+#gallery {
+
+	height: 75vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ 	justify-content: center;
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+}
+
+.tools {
+
+	border: 5px solid #f2f2f2;
+
+	/*spacing outside*/
+	margin: 20px;
+	/*spacing inside*/
+	padding:  25px;
+
+	height: 200px;
+	width: 75%;
+}
+
+html{
+	scroll-behavior: smooth;
+}
